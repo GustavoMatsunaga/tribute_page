@@ -29,6 +29,6 @@ The project was deployed here : <a href="https://gustavomatsunaga.github.io/trib
 
 ## DEMO VERSION
 
-![]("github/japanese.gif")
+![](github/japanese.gif)
 
 Developed by :octocat: Gustavo Matsunaga.
