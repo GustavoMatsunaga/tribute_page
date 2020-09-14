@@ -15,18 +15,18 @@ body, main {
 
 main {
   width: 100vw;
-  background-image: linear-gradient(#ededed, #545454); }
+  background-image: linear-gradient(#ededed 0%, #545454 100%); }
 
 .container {
   width: 80vw;
   max-width: 940px; }
 
 header {
-  background-image: linear-gradient(#ff2f00, #ededed);
+  background-image: linear-gradient(#6c1703 10%, #ededed 100%);
   width: 100%;
   text-align: center;
   padding: 2rem;
-  color: #fefefe; }
+  color: #544d4d; }
   header .flags {
     display: flex;
     align-content: center;

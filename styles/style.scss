@@ -4,10 +4,10 @@ $primary-color-dark: darken($primary-color, 70);
 $primary-color-darker: darken($primary-color, 90);
 $primary-color-light: lighten($primary-color, 70);
 $primary-color-lighter: lighten($primary-color, 90);
-$secondary-color: #ff2f00;
+$secondary-color: #6c1703;
 $text-color: #fefefe;
 $background-color: #ededed;
-$linear-color: ($background-color, darken($background-color, 60));
+$linear-color: ($background-color 0%, darken($background-color, 60) 100%);
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&display=swap');
 
@@ -37,11 +37,11 @@ main {
 }
 
 header {
-    background-image: linear-gradient($secondary-color ,$background-color);
+    background-image: linear-gradient($secondary-color 10%,$background-color 100%);
     width: 100%;
     text-align: center;
     padding: 2rem;
-    color: $text-color;
+    color: #544d4d;
 
     .flags {
         display: flex;
