@@ -6,7 +6,7 @@
 
 # ABOUT :speech_balloon:
 This is a website created to fulfill a user stories, and tell about the japanese immigration, in order to complete the FreeCodeCamp challenge. It also had some challenges besides creating the website.
-The project was deployed here : <a href="https://gustavomatsunaga.github.io/tribute_page/">Tribute Page</a>
+The project was deployed here : <a href="https://gustavomatsunaga.github.io/tribute_page/" target="_blank">Tribute Page</a>
 
 ## Challenges :bulb:
 <ul>
@@ -27,5 +27,6 @@ The project was deployed here : <a href="https://gustavomatsunaga.github.io/trib
 <li>CSS</li>
 </ul> 
 
-## <img src="github/japanese.gif"></img>
+## DEMO VERSION
+<img src="github/japanese.gif"></img>
 Developed by :octocat: Gustavo Matsunaga.
