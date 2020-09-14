@@ -1,0 +1,68 @@
+/* Color Theme Swatches in Hex */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  background-image: linear-gradient(to right, #ededed, #bababa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.container {
+  width: 80vw;
+  max-width: 940px; }
+
+header {
+  background-image: linear-gradient(#ff2f00, #e8b4b8);
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  color: #fefefe; }
+  header .flags {
+    display: flex;
+    align-content: center;
+    justify-content: space-around; }
+    header .flags img {
+      width: 10%; }
+  header h1 {
+    margin-bottom: 0.5rem; }
+
+#img-div #image {
+  width: 80%;
+  margin: 2rem auto;
+  display: block; }
+#img-div p {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 0.9rem; }
+
+section {
+  background-color: #fefefe;
+  padding: 3rem;
+  border-radius: 1rem; }
+  @media (max-width: 600px) {
+    section {
+      padding: 1.5rem; } }
+  section ul {
+    margin: 2rem; }
+    @media (max-width: 600px) {
+      section ul {
+        margin: 2rem 0; } }
+  section li {
+    margin: 1rem auto; }
+  section blockquote {
+    text-align: center;
+    margin-top: 4rem; }
+    section blockquote cite {
+      font-size: 0.8rem; }
+
+.profile-link {
+  margin: 2rem auto;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

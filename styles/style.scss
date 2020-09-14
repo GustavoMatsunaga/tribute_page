@@ -1,0 +1,108 @@
+/* Color Theme Swatches in Hex */
+$primary-color: #e8b4b8;
+$primary-color-dark: darken($primary-color, 70);
+$primary-color-darker: darken($primary-color, 90);
+$primary-color-light: lighten($primary-color, 70);
+$primary-color-lighter: lighten($primary-color, 90);
+$secondary-color: #ff2f00;
+$text-color: #fefefe;
+$background-color: #ededed;
+$linear-color: ($background-color, darken($background-color, 20));
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, $linear-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 80vw;
+    max-width: 940px;
+}
+
+header {
+    background-image: linear-gradient($secondary-color ,$primary-color);
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    color: $text-color;
+
+    .flags {
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+
+        img {
+            width: 10%;
+        }
+    }
+
+    h1 {
+        margin-bottom: 0.5rem;
+    }
+}
+
+#img-div {
+
+    #image {
+        width: 80%;
+        margin: 2rem auto;
+        display: block;
+    }
+
+    p {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 0.9rem;
+    }
+
+}
+
+section {
+    background-color: $text-color;
+    padding: 3rem;
+    border-radius: 1rem;
+
+    @media (max-width: 600px) {
+        padding: 1.5rem;
+    }
+
+    ul {
+        margin: 2rem;
+
+        @media (max-width: 600px) {
+            margin: 2rem 0;
+        }
+    }
+    
+    li {
+        margin: 1rem auto;
+        
+    }
+
+    blockquote {
+        text-align: center;
+        margin-top: 4rem;
+        
+        cite {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+.profile-link {
+    margin: 2rem auto;
+    text-align: center;
+}
