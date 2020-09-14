@@ -6,19 +6,23 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif; }
 
-body {
-  background-image: linear-gradient(to right, #ededed, #bababa);
+body, main {
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column; }
+
+main {
+  width: 100vw;
+  background-image: linear-gradient(#ededed, #545454); }
 
 .container {
   width: 80vw;
   max-width: 940px; }
 
 header {
-  background-image: linear-gradient(#ff2f00, #e8b4b8);
+  background-image: linear-gradient(#ff2f00, #ededed);
   width: 100%;
   text-align: center;
   padding: 2rem;

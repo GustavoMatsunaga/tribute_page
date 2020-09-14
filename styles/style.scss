@@ -7,7 +7,7 @@ $primary-color-lighter: lighten($primary-color, 90);
 $secondary-color: #ff2f00;
 $text-color: #fefefe;
 $background-color: #ededed;
-$linear-color: ($background-color, darken($background-color, 20));
+$linear-color: ($background-color, darken($background-color, 60));
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&display=swap');
 
@@ -18,13 +18,17 @@ $linear-color: ($background-color, darken($background-color, 20));
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    background-image: linear-gradient(to right, $linear-color);
-
+body, main {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+main {
+    width: 100vw;
+    background-image: linear-gradient($linear-color);
 }
 
 .container {
@@ -33,7 +37,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient($secondary-color ,$primary-color);
+    background-image: linear-gradient($secondary-color ,$background-color);
     width: 100%;
     text-align: center;
     padding: 2rem;
