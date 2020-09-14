@@ -4,7 +4,7 @@
 ![](https://img.shields.io/github/languages/top/GustavoMatsunaga/tribute_page)
 ![](https://img.shields.io/github/last-commit/GustavoMatsunaga/tribute_page)
 
-# ABOUT :speech_ballon:
+# ABOUT :speech_balloon:
 This is a website created to fulfill a user stories, and tell about the japanese immigration, in order to complete the FreeCodeCamp challenge. It also had some challenges besides creating the website.
 The project was deployed here : <a href="https://gustavomatsunaga.github.io/tribute_page/">Tribute Page</a>
 
